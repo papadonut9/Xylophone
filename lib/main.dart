@@ -2,7 +2,11 @@ import 'package:xylophone/dependencies.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: null,
+        home: Scaffold(
+          body: SafeArea(
+            child: Xylophone(),
+          ),
+        ),
       ),
     );
 
