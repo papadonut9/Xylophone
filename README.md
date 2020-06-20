@@ -1,6 +1,6 @@
-# flutter_boilerplate
+# Xylophone
 
-This project is a minimal boilerplate code that displays hello world
+A simple music app
 
 #### After cloning this repo, follow the steps given below
 1. Go to **pubspec.yaml** and under **name** change the package name from **flutter_boilerplate** to your project name 

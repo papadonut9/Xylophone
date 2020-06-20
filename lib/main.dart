@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:xylophone/dependencies.dart';
 
 void main() => runApp(
       MaterialApp(
