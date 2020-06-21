@@ -1,7 +1,8 @@
 import 'package:xylophone/dependencies.dart';
 
-class Xylophone extends StatelessWidget {
+const globalWidth = double.infinity;
 
+class Xylophone extends StatelessWidget {
   void pressAction(int noteNum) {
     final player = AudioCache();
     player.play('sounds/note$noteNum.wav');
@@ -9,12 +10,15 @@ class Xylophone extends StatelessWidget {
   }
 
   Widget note(int noteNum, noteColor) {
-    return FlatButton(
-      color: noteColor,
-      onPressed: () {
-        pressAction(noteNum);
-      },
-      child: Text(''),
+    // var noteColor = 'kNote$noteNum';
+    return Expanded(
+      child: FlatButton(
+        color: noteColor,
+        onPressed: () {
+          pressAction(noteNum);
+        },
+        child: Text(''),
+      ),
     );
   }
 
@@ -22,8 +26,10 @@ class Xylophone extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: kBackgroundColor,
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               note(1, kNote1Color),
               note(2, kNote2Color),

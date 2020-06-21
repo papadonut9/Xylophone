@@ -2,6 +2,8 @@
 
 import 'package:xylophone/dependencies.dart';
 
+const kBackgroundColor = Colors.black;
+
 const kNote1Color = Colors.red;
 const kNote2Color = Colors.orange;
 const kNote3Color = Colors.yellow;

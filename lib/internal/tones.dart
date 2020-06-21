@@ -1,6 +1,6 @@
 import 'package:xylophone/dependencies.dart';
 
-const globalWidth = double.infinity;
+
 
 class Note1 extends StatefulWidget {
   @override

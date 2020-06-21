@@ -10,3 +10,8 @@
 ## v1.2.0 build 3
 1. Minor UI changes.
 2. Optimised code for faster execution.
+
+## v1.3.5 build 5 
+1. Major UI changes, now the buttons occupy the entire width of the screen. 
+2. Minor under the hood tweaks.
+3. Not a debug app. It's now a production app
