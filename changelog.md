@@ -6,3 +6,7 @@
 1. added all notes with their individual linking
 2. added verbose logcat logging which is enabled by default. Users need to pass **verbose = true** in **main.dart**.
 3. Minor bug fixes
+
+## v1.2.0 build 3
+1. Minor UI changes.
+2. Optimised code for faster execution.

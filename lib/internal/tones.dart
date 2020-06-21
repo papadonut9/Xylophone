@@ -1,5 +1,7 @@
 import 'package:xylophone/dependencies.dart';
 
+const globalWidth = double.infinity;
+
 class Note1 extends StatefulWidget {
   @override
   _Note1State createState() => _Note1State();
@@ -9,12 +11,13 @@ class _Note1State extends State<Note1> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote1Color,
       onPressed: () {
         final player = AudioCache();
         player.play('sounds/note1.wav');
         print('Note 1 executed');
       },
-      child: Text('Click Note 1'),
+      child: Text(''),
     );
   }
 }
@@ -28,12 +31,13 @@ class _Note2State extends State<Note2> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote2Color,
       onPressed: (){
         final player = AudioCache();
         player.play('sounds/note2.wav');
         print('Note 2 executed');
       },
-      child: Text('Click Note 2'),
+      child: Text(''),
     );
   }
 }
@@ -47,12 +51,13 @@ class _Note3State extends State<Note3> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote3Color,
       onPressed: (){
         final player = AudioCache();
         player.play('sounds/note3.wav');
         print('Note 3 executed');
       },
-      child: Text('Click Note 3'),
+      child: Text(''),
     );
   }
 }
@@ -66,12 +71,13 @@ class _Note4State extends State<Note4> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote4Color,
       onPressed: () {
         final player = AudioCache();
         player.play('sounds/note4.wav');
         print('Note 4 executed');
       },
-      child: Text('Click Note 4'),
+      child: Text(''),
     );
   }
 }
@@ -85,12 +91,13 @@ class _Note5State extends State<Note5> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote5Color,
       onPressed: () {
         final player = AudioCache();
         player.play('sounds/note5.wav');
         print('Note 5 executed');
       },
-      child: Text('Click Note 5'),
+      child: Text(''),
     );
   }
 }
@@ -104,12 +111,13 @@ class _Note6State extends State<Note6> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote6Color,
       onPressed: () {
         final player = AudioCache();
         player.play('sounds/note6.wav');
         print('Note 6 executed');
       },
-      child: Text('Click Note 6'),
+      child: Text(''),
     );
   }
 }
@@ -123,12 +131,13 @@ class _Note7State extends State<Note7> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(
+      color: kNote7Color,
       onPressed: () {
         final player = AudioCache();
         player.play('sounds/note7.wav');
         print('Note 7 executed');
       },
-      child: Text('Click Note 7'),
+      child: Text(''),
     );
   }
 }
